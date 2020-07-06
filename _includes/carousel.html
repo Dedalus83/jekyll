@@ -4,7 +4,7 @@
       {% assign cpt = 0 %}
       {% for post in site.posts %}
         <div class="carousel-item {% if cpt == 0 %}active{% endif %}">
-            <a href="{{ post.url }}">
+            <a href="{{ post.url | relative_url }}">
               <img class="carousel-img-perso" src="{{ post.image }}" alt="{{ post.title }}">
             </a>
             <p>{{ post.excerpt | truncatewords:8 }}</p>
