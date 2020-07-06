@@ -1,0 +1,48 @@
+$base-color: white;
+$footer-bg-color: #2D2757;
+$title-color: #8243E3;
+$hover-color: #179556;
+
+
+body{
+  background: black;
+}
+
+body, p, h2, h3, a{
+  color: $base-color;
+  text-decoration: none;
+  text-align: center;
+   & h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:$title-color
+   }
+}
+
+a:hover{
+  color:$hover-color;
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+  text-align: center;
+}
+
+.carousel-perso{
+  min-height: 320px;
+}
+
+.carousel-img-perso{
+  max-height: 250px;
+}
+
+.container{
+  margin-top:50px;
+}
+
+.footer-bg{
+  background: $footer-bg-color;
+  padding: 1px;
+}
+
