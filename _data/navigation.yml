@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link: /jekyll/
 - name: About
-  link: /about.html
+  link: /jekyll/about.html
 - name: Blog
-  link: /blog.html
+  link: /jekyll/blog.html
 - name: Ecrivateurs
-  link: /staff.html
+  link: /jekyll/staff.html

@@ -1,4 +1,4 @@
-base_url: /jekyll/
+baseurl: /jekyll
 
 collections:
   authors:

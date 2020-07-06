@@ -1,7 +1,7 @@
 ---
 layout: post
 author: fevrier
-image: "/assets/image/metallica.jpg"
+image: "/jekyll/assets/image/metallica.jpg"
 title: "Metallica"
 ---
 Metallica est un groupe de thrash metal américain originaire de Californie. Formé à Los Angeles en 1981.
