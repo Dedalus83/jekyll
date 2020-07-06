@@ -19,3 +19,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["fr", "en"]
