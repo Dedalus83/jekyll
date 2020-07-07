@@ -23,8 +23,6 @@ task :publish => [:generate] do
     Dir.chdir tmp
     File.open(".nojekyll", "wb") { |f| f.puts("Site généré localement.") }
     
-    system "cd _site"
-    system "touch .nojekyll"
     system "git init"
     system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
     system "checkout -b gh-pages"
