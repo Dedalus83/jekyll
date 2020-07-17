@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"$base-color: white;\r\n$footer-bg-color: #2D2757;\r\n$title-color: #8243E3;\r\n$hover-color: #179556;\r\n\r\n\r\nbody{\r\n  background: black;\r\n}\r\n\r\nbody, p, h2, h3, a{\r\n  color: $base-color;\r\n  text-decoration: none;\r\n  text-align: center;\r\n   & h1{\r\n    margin-top: 50px;\r\n    margin-bottom: 50px;\r\n    color:$title-color\r\n   }\r\n}\r\n\r\na:hover{\r\n  color:$hover-color;\r\n  text-decoration: none;\r\n}\r\n\r\nli{\r\n  list-style-type: none;\r\n  text-align: center;\r\n}\r\n\r\n.carousel-perso{\r\n  min-height: 320px;\r\n}\r\n\r\n.carousel-img-perso{\r\n  max-height: 250px;\r\n}\r\n\r\n.container{\r\n  margin-top:50px;\r\n}\r\n\r\n.footer-bg{\r\n  background: $footer-bg-color;\r\n  padding: 1px;\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": "ACMA,AAAA,IAAI,CAAA,EACF,UAAU,EAAE,KAAK,GAClB;;AAED,AAAA,IAAI,EAAE,CAAC,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC,CAAA,EAChB,KAAK,EAXM,KAAK,EAYhB,eAAe,EAAE,IAAI,EACrB,UAAU,EAAE,MAAM,GAMnB;;AATD,AAIG,IAJC,CAIC,EAAE,EAJD,CAAC,CAIF,EAAE,EAJE,EAAE,CAIN,EAAE,EAJM,EAAE,CAIV,EAAE,EAJU,CAAC,CAIb,EAAE,CAAA,EACH,UAAU,EAAE,IAAI,EAChB,aAAa,EAAE,IAAI,EACnB,KAAK,EAfK,OAAO,GAgBjB;;AAGJ,AAAA,CAAC,CAAC,KAAK,CAAA,EACL,KAAK,EAnBO,OAAO,EAoBnB,eAAe,EAAE,IAAI,GACtB;;AAED,AAAA,EAAE,CAAA,EACA,eAAe,EAAE,IAAI,EACrB,UAAU,EAAE,MAAM,GACnB;;AAED,AAAA,eAAe,CAAA,EACb,UAAU,EAAE,KAAK,GAClB;;AAED,AAAA,mBAAmB,CAAA,EACjB,UAAU,EAAE,KAAK,GAClB;;AAED,AAAA,UAAU,CAAA,EACR,UAAU,EAAC,IAAI,GAChB;;AAED,AAAA,UAAU,CAAA,EACR,UAAU,EA3CM,OAAO,EA4CvB,OAAO,EAAE,GAAG,GACb"
+}
